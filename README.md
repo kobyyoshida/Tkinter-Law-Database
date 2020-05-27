@@ -8,6 +8,8 @@ Uses Tkinter Python Package Connects to Google Cloud Storage MySQL Database
 
 Bugs:
 
+When storing files of a client, the local file address is stored as a VARCHAR. This address will later be used to open the file at the specific location. Make sure you put a file path to something on your machine before trying to open it.
+
 Overall: Sometimes struggles with duplicates
 
 Add page: Drop down menu does not display the courthouse
