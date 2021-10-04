@@ -6,10 +6,10 @@ import csv
 import os
 
 db = mysql.connect(
-    host = "34.94.100.26",
-    user = "root",
-    passwd = "lawfirmoc",
-    database = "lawfirm"
+    host = "*******",
+    user = "********",
+    passwd = "*******",
+    database = "********"
 )
 cursor = db.cursor()
 
